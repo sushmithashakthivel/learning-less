@@ -1,0 +1,46 @@
+{
+  "name": "react-less",
+  "version": "1.0.0",
+  "description": "less styling",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch --progress --bail --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.cognizant.com/sushmitha/less-styling-project.git"
+  },
+  "keywords": [
+    "react",
+    "less"
+  ],
+  "author": "sushmitha",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.7.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "eventsource-polyfill": "^0.9.6",
+    "extract-text-webpack-plugin": "^2.0.0-rc.1",
+    "file-loader": "^0.10.0",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "postcss-loader": "^1.2.2",
+    "react-hot-loader": "^1.3.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.4.2"
+  }
+}
